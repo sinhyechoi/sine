@@ -4,15 +4,17 @@ new fullpage('#fullpage', {
 	autoScrolling:true,
 	scrollHorizontally: true,
     scrollBar:true,
-    sectionsColor: ['#fff', '#EBE7E4', '#ebe7e4', '#000','#ebe7e4'],
+    sectionsColor: ['#fff', '#fff', '#000', '#fff','#fff'],
     navigation: true,
 	navigationPosition: 'right',
-    navigationTooltips: ['Home','Profile','skill','Project','Contect'], 
+    navigationTooltips: ['Home','Profile & Skills','Project','Episode'], 
     easing: 'easeInOutCubic',
     anchors: ['1st', 'second', '3rd', '4th', '5th'],
     menu: '.gnb_list',
-    normalScrollElements: '#s2',
+    normalScrollElements: '#s1',
 });
+
+new WOW().init();
 
 
 //햄버거 버튼 클릭

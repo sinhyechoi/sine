@@ -81,12 +81,14 @@ html.fp-enabled,
     border-style: solid;
 }
 .fp-arrow.fp-prev {
-    border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #fff transparent transparent;
+    margin-left: 60px;
+    border-width: 18.5px 24px 18.5px 0;
+    border-color: transparent #666 transparent transparent;
 }
 .fp-arrow.fp-next {
-    border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #fff;
+    margin-right: 60px;
+    border-width: 18.5px 0 18.5px 24px;
+    border-color: transparent transparent transparent #666;
 }
 /* .fp-scrollable {
     overflow: hidden;
@@ -304,12 +306,14 @@ Not supports in Firefox and IE */
 }
 .fp-warning,
 .fp-watermark{
+    display:none;
     z-index: 9999999;
     position: absolute;
     bottom: 0;
 }
 .fp-warning,
 .fp-watermark a{
+    display:none;
     text-decoration: none;
     color: #000;
     background: rgba(255,255,255,0.6);
